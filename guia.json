@@ -2,29 +2,119 @@
   "quemadura": {
     "gradoUno": {
       "titulo": "Quemadura de Primer Grado",
-      "icono": "sun",
+      "icono": "https://cdn-icons-png.flaticon.com/512/3departments/3departments-6.png",
       "color": "#FFB300",
       "pasos": [
         "Enfría la zona con agua corriente fresca de 10 a 15 minutos.",
         "No apliques hielo directamente sobre la piel.",
-        "Aplica una loción hidratante (aloe vera o similar).",
+        "Aplica una loción hidratante como aloe vera.",
         "Cubre con una venda limpia y suelta."
       ]
     },
     "gradoDos": {
       "titulo": "Quemadura de Segundo Grado",
-      "icono": "alert-triangle",
+      "icono": "https://cdn-icons-png.flaticon.com/512/4320/4320337.png",
       "color": "#E53935",
       "pasos": [
         "Enfría la zona con agua fresca durante 15 minutos.",
-        "NO rompas las ampollas: protegen contra infección.",
-        "Cubre con gasa estéril suelta.",
+        "No rompas las ampollas, protegen contra la infección.",
+        "Cubre el área con una gasa estéril y suelta.",
         "Busca atención médica lo antes posible."
       ]
     }
   },
-  "sangradoNasal": { "golpe": { "...": "..." }, "espontaneo": { "...": "..." } },
-  "atragantamiento": { "adulto": { "...": "..." }, "bebe": { "...": "..." } },
-  "torcedura":  { "generico": { "...": "..." } },
-  "desmayo":    { "mereado": { "...": "..." }, "inconciente": { "...": "..." } }
+  "sangradoNasal": {
+    "golpe": {
+      "titulo": "Sangrado Nasal por Golpe",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "color": "#C62828",
+      "pasos": [
+        "Verifica que no haya sospecha de fractura nasal.",
+        "Siéntate derecho e inclina la cabeza ligeramente hacia adelante.",
+        "Pellizca la parte blanda de la nariz durante 10 minutos.",
+        "Respira por la boca mientras detienes el sangrado.",
+        "Si no cede en 20 minutos, acude a urgencias."
+      ]
+    },
+    "espontaneo": {
+      "titulo": "Sangrado Nasal Espontáneo",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "color": "#EF5350",
+      "pasos": [
+        "Siéntate derecho e inclina la cabeza hacia adelante.",
+        "Nunca inclines la cabeza hacia atrás para evitar tragar sangre.",
+        "Pellizca la parte blanda de la nariz por 10 a 15 minutos.",
+        "Respira tranquilamente por la boca.",
+        "Aplica una compresa fría en el puente nasal si es posible."
+      ]
+    }
+  },
+  "atragantamiento": {
+    "adulto": {
+      "titulo": "Atragantamiento en Adulto o Niño",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966486.png",
+      "color": "#D32F2F",
+      "pasos": [
+        "Párate detrás de la persona y abraza su cintura.",
+        "Haz un puño y colócalo arriba del ombligo.",
+        "Sujeta el puño con la otra mano.",
+        "Presiona hacia adentro y hacia arriba con fuerza.",
+        "Repite hasta que el objeto salga o llegue ayuda."
+      ]
+    },
+    "bebe": {
+      "titulo": "Atragantamiento en Bebé",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966486.png",
+      "color": "#AD1457",
+      "pasos": [
+        "Coloca al bebé boca abajo sobre tu antebrazo.",
+        "Sostén firmemente su mandíbula con tu mano.",
+        "Da 5 palmadas firmes entre los omóplatos.",
+        "Gíralo boca arriba con cuidado.",
+        "Realiza 5 compresiones rápidas en el centro del pecho.",
+        "Repite el ciclo hasta que el objeto salga."
+      ]
+    }
+  },
+  "torcedura": {
+    "generico": {
+      "titulo": "Torcedura o Esguince",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966334.png",
+      "color": "#1976D2",
+      "pasos": [
+        "Reposo: evita mover la zona afectada.",
+        "Hielo envuelto en una toalla durante 20 minutos.",
+        "Compresión con una venda elástica sin apretar demasiado.",
+        "Elevación por encima del nivel del corazón.",
+        "Si el dolor persiste más de 48 horas, acude al médico."
+      ]
+    }
+  },
+  "desmayo": {
+    "mereado": {
+      "titulo": "Persona Mareada",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966489.png",
+      "color": "#FB8C00",
+      "pasos": [
+        "Ayuda a la persona a sentarse o acostarse de inmediato.",
+        "Si está sentada, que coloque la cabeza entre las rodillas.",
+        "Afloja cualquier prenda apretada.",
+        "Ofrécele agua cuando se sienta mejor.",
+        "Evita que se levante de forma rápida."
+      ]
+    },
+    "inconciente": {
+      "titulo": "Persona Inconsciente",
+      "icono": "https://cdn-icons-png.flaticon.com/512/2966/2966489.png",
+      "color": "#B71C1C",
+      "pasos": [
+        "Acuesta a la persona boca arriba en un lugar seguro.",
+        "Eleva sus piernas unos 30 centímetros.",
+        "Afloja cualquier ropa apretada.",
+        "Verifica que esté respirando.",
+        "Si no respira, llama a emergencias al 911 de inmediato.",
+        "Permanece con la persona hasta que recupere el conocimiento."
+      ]
+    }
+  }
 }
