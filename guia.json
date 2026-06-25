@@ -1,0 +1,30 @@
+{
+  "quemadura": {
+    "gradoUno": {
+      "titulo": "Quemadura de Primer Grado",
+      "icono": "sun",
+      "color": "#FFB300",
+      "pasos": [
+        "Enfría la zona con agua corriente fresca de 10 a 15 minutos.",
+        "No apliques hielo directamente sobre la piel.",
+        "Aplica una loción hidratante (aloe vera o similar).",
+        "Cubre con una venda limpia y suelta."
+      ]
+    },
+    "gradoDos": {
+      "titulo": "Quemadura de Segundo Grado",
+      "icono": "alert-triangle",
+      "color": "#E53935",
+      "pasos": [
+        "Enfría la zona con agua fresca durante 15 minutos.",
+        "NO rompas las ampollas: protegen contra infección.",
+        "Cubre con gasa estéril suelta.",
+        "Busca atención médica lo antes posible."
+      ]
+    }
+  },
+  "sangradoNasal": { "golpe": { "...": "..." }, "espontaneo": { "...": "..." } },
+  "atragantamiento": { "adulto": { "...": "..." }, "bebe": { "...": "..." } },
+  "torcedura":  { "generico": { "...": "..." } },
+  "desmayo":    { "mereado": { "...": "..." }, "inconciente": { "...": "..." } }
+}
